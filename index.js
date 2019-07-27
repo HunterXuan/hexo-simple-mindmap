@@ -19,14 +19,14 @@ hexo.extend.filter.register('after_post_render', function(data) {
   // mindmap.js
   htmlTags = htmlTags + util.htmlTag('script', {
     type: 'text/javascript',
-    src: 'https://cdn.jsdelivr.net/npm/hexo-mindmap@' + version + '/dist/mindmap.min.js'
+    src: 'https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@' + version + '/dist/mindmap.min.js'
   })
 
   // mindmap.css
   htmlTags = htmlTags + util.htmlTag('link', {
     rel: 'stylesheet',
     type: 'text/css',
-    href: 'https://cdn.jsdelivr.net/npm/hexo-mindmap@' + version + '/dist/mindmap.min.css'
+    href: 'https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@' + version + '/dist/mindmap.min.css'
   })
 
   data.content = data.content + htmlTags
