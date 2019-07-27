@@ -30,8 +30,6 @@ hexo.extend.filter.register('after_post_render', function(data) {
   })
 
   data.content = data.content + htmlTags
-  
-  console.log(htmlTags)
 
   return data
 });
