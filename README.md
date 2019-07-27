@@ -1,11 +1,10 @@
-# hexo-mindmap
+# hexo-simple-mindmap
 Hexo Plugin: Display mindmap in post
 
 # How to use
-
 ## Install
 ```bash
-npm install hexo-mindmap
+npm install hexo-simple-mindmap
 ```
 
 ## Tag Example

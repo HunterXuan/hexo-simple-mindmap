@@ -1,5 +1,5 @@
 {
-  "name": "hexo-mindmap",
+  "name": "hexo-simple-mindmap",
   "version": "0.1.0",
   "description": "Hexo Plugin: Display mindmap in post",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HunterXuan/hexo-mindmap.git"
+    "url": "git+https://github.com/HunterXuan/hexo-simple-mindmap.git"
   },
   "keywords": [
     "Hexo",
@@ -17,9 +17,9 @@
   "author": "HunterXuan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HunterXuan/hexo-mindmap/issues"
+    "url": "https://github.com/HunterXuan/hexo-simple-mindmap/issues"
   },
-  "homepage": "https://github.com/HunterXuan/hexo-mindmap#readme",
+  "homepage": "https://github.com/HunterXuan/hexo-simple-mindmap#readme",
   "dependencies": {
     "hexo-util": "^0.6.3"
   }
