@@ -3,6 +3,12 @@ var version = '0.2.0'
 
 hexo.extend.filter.register('after_post_render', function(data) {
   var htmlTags = ''
+  // jquery
+  htmlTags = htmlTags + util.htmlTag('script', {
+    type: 'text/javascript',
+    src:  'https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js'
+  }, '')
+
 
   // kity.js
   htmlTags = htmlTags + util.htmlTag('script', {
