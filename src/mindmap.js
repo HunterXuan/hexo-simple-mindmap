@@ -14,7 +14,7 @@
       } else {
         liData = {
           "data": {
-            "text": liNode.childElementCount ? liNode.childNodes[0].nodeValue.trim() : liNode.innerText.trim()
+            "text": liNode.childNodes[0].nodeValue.trim()
           }
         };
       }
