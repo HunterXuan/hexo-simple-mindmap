@@ -1,6 +1,6 @@
 {
   "name": "hexo-simple-mindmap",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Hexo Plugin: Display mindmap in post",
   "main": "index.js",
   "scripts": {
