@@ -3,7 +3,7 @@
     // 将 li 节点转换为 JSON 数据
     li2jsonData: function(liNode) {
       let liData;
-      const aNodes = liNode.getElementsByTagName('a');
+      const aNodes = liNode.querySelectorAll(':scope > a');
       if (aNodes.length !== 0) {
         liData = {
           "data": {
