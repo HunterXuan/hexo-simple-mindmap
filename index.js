@@ -1,5 +1,5 @@
 var util = require('hexo-util')
-var version = '0.6.0'
+var version = require('./package.json').version
 
 hexo.extend.filter.register('after_post_render', function(data) {
   var htmlTags = ''
